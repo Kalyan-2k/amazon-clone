@@ -1,0 +1,33 @@
+.main__navbar {
+  height: 40px;
+  width: 100%;
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.navbar__left {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+p {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1em;
+}
+.navbar__right {
+  display: flex;
+  flex-flow: row wrap;
+}
+.navbar__right > p {
+  font-size: 14px;
+  line-height: 1em;
+  text-decoration: none;
+  margin-right: 15px;
+  align-items: center;
+  color: white;
+}
